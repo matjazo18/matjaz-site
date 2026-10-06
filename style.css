@@ -242,3 +242,12 @@ html.i18n-pending body{visibility:hidden}
 .about-page .links{justify-content:flex-start}
 @media(max-width:720px){.about-page h1{margin-bottom:24px}.about-page .about-intro{font-size:24px;margin-bottom:28px}.about-list{margin-bottom:40px}}
 :root[data-theme="dark"] .lens-text.fill{color:#fff}
+/* lens color test: dark green */
+.lens-ring{background:#1f5c3f}
+.lens-text.fill{color:#f3efe6}
+:root[data-theme="dark"] .lens-text.fill{color:#f3efe6}
+/* lens per theme */
+.lens-ring{background:#3f9a66}
+.lens-text.fill{color:#0d0d0d}
+:root[data-theme="dark"] .lens-ring{background:#1f5c3f}
+:root[data-theme="dark"] .lens-text.fill{color:#f3efe6}
