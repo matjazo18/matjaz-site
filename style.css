@@ -256,3 +256,17 @@ html.i18n-pending body{visibility:hidden}
 .about-text{max-width:620px;margin-bottom:56px}
 .about-text p{font-size:18px;line-height:1.7;margin-bottom:18px}
 .about-text p:last-child{margin-bottom:0}
+/* bigger project images + soft green shadow */
+@media(min-width:721px){
+  .project{grid-template-columns:1.25fr 1fr;gap:56px}
+  .project.flip{grid-template-columns:1fr 1.25fr}
+}
+.frame{box-shadow:0 1px 0 var(--line),0 30px 70px -30px rgba(63,154,102,.45)}
+.shot a:hover .frame{box-shadow:0 1px 0 var(--line),0 40px 80px -30px rgba(63,154,102,.55)}
+:root[data-theme="dark"] .frame{box-shadow:0 1px 0 var(--line),0 30px 70px -30px rgba(31,92,63,.9)}
+:root[data-theme="dark"] .shot a:hover .frame{box-shadow:0 1px 0 var(--line),0 40px 80px -30px rgba(31,92,63,1)}
+/* plain grey shadow */
+.frame{box-shadow:0 10px 30px rgba(0,0,0,.12),0 30px 60px -20px rgba(0,0,0,.25)}
+.shot a:hover .frame{box-shadow:0 14px 36px rgba(0,0,0,.16),0 40px 70px -20px rgba(0,0,0,.3)}
+:root[data-theme="dark"] .frame{box-shadow:0 10px 30px rgba(0,0,0,.5),0 30px 60px -20px rgba(0,0,0,.8)}
+:root[data-theme="dark"] .shot a:hover .frame{box-shadow:0 14px 36px rgba(0,0,0,.6),0 40px 70px -20px rgba(0,0,0,.9)}
