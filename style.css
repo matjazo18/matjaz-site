@@ -251,3 +251,8 @@ html.i18n-pending body{visibility:hidden}
 .lens-text.fill{color:#0d0d0d}
 :root[data-theme="dark"] .lens-ring{background:#1f5c3f}
 :root[data-theme="dark"] .lens-text.fill{color:#f3efe6}
+.inl{border-bottom:1px solid var(--line);transition:color .2s,border-color .2s,text-shadow .2s}
+.inl:hover{border-color:var(--fg);text-shadow:0 0 10px var(--glow),0 0 22px var(--glow)}
+.about-text{max-width:620px;margin-bottom:56px}
+.about-text p{font-size:18px;line-height:1.7;margin-bottom:18px}
+.about-text p:last-child{margin-bottom:0}

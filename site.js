@@ -9,7 +9,7 @@
       "about.how2":"Self-taught, studying computer science in Ljubljana, working at a supplement startup on the side. Hackathons when there is time.",
       "about.big":"Got a project in mind?","about.btn":"Let's talk",
       "cta.url":"yourwebsite.com","cta.text":"Want a website? Here's the deal.","cta.b1":"Done in under a week","cta.b2":"Fixed price before I start","cta.b3":"One call, I do the rest","cta.b4":"Built to bring you customers","cta.h2":"Next one could be yours.","cta.link":"Write me →","cta.hint":"click, send me an email →","cta.num":"04 · Your project","cta.stack":"Design · Build · Launch",
-"about.intro":"I'm Matjaž. 20, from Slovenia. I build websites and Shopify apps.","ab.1":"Self-taught, started with websites for local businesses","ab.2":"Now shipping Shopify apps at TastyDose","ab.3":"Studying computer science in Ljubljana","ab.4":"Using Claude Code every day, that's why I'm fast","ab.5":"I like simple things. I hate the word average",      "nav.home":"home","nav.projects":"projects","nav.experience":"experience","nav.about":"about",
+"ab.1":"Self-taught, started with websites for local businesses","ab.2":"Now shipping Shopify apps at TastyDose","ab.3":"Studying computer science in Ljubljana","ab.4":"Using Claude Code every day, that's why I'm fast","ab.5":"I like simple things. I hate the word average","about.intro":"I'm Matjaž Gazvoda. Right now I'm a developer at <a class=\"inl\" href=\"https://tastydose.com\" target=\"_blank\" rel=\"noopener\">Tasty Dose</a>. I've built a few websites, but all my life I've been into sports. In my free time I read and travel.","about.p1":"I'm Matjaž Gazvoda, 20, from Slovenia. Right now I'm a developer at <a class=\"inl\" href=\"https://tastydose.com\" target=\"_blank\" rel=\"noopener\">Tasty Dose</a>, where I build Shopify apps and internal tools for a brand that's growing fast.","about.p2":"Before that I was building websites for local businesses, and I still do when a good project comes along. I'm self-taught and I use AI tools every day. That's a big part of why I work fast.","about.p3":"Code isn't the whole story though. All my life I've been into sports and that's still where most of my energy goes outside of work. In my free time I read and I travel whenever I can. Last trip was San Francisco.",      "nav.home":"home","nav.projects":"projects","nav.experience":"experience","nav.about":"about",
       "hero.tag":"Software developer. I build fast, clean websites and Shopify apps, mostly with AI in the loop.",
       "links.email":"Email",
       "projects.h1":"projects","projects.lead":"Three websites I designed and built for real clients, from first call to live domain.",
@@ -27,9 +27,9 @@
       "ed2.when":"2021 – 2025","ed2.title":"Gimnazija Novo mesto","ed2.where":"Novo mesto",
       "h1.where":"AI pixel characters that act as skills and MCP connections",
       "about.h1":"about me",
-      "about.p1":"I'm Matjaž, a 20-year-old self-taught developer from Slovenia. I started by building websites for local businesses and now spend most of my days shipping Shopify apps at TastyDose.",
-      "about.p2":"I like things simple and fast. I work with AI tools daily, read a lot, train, and enjoy doing things a little differently. I hate the word average.",
-      "about.p3":"If you want a website or need help with Shopify, write me.",
+      
+      
+      
       "f.based":"Based in","f.based.v":"Ljubljana, Slovenia","f.study":"Studying","f.study.v":"Computer Science, UL FRI","f.work":"Working at","f.lang":"Languages","f.lang.v":"Slovenian, English, German","f.stack":"Stack","f.email":"Email"
     },
     sl:{
@@ -41,7 +41,7 @@
       "about.how2":"Samouk, študiram računalništvo v Ljubljani, ob tem delam v startupu s prehranskimi dopolnili. Hackathoni, ko je čas.",
       "about.big":"Imaš projekt v mislih?","about.btn":"Pogovoriva se",
       "cta.url":"tvojastran.com","cta.text":"Rabiš spletno stran? Tako gre.","cta.b1":"Narejeno v manj kot tednu","cta.b2":"Fiksna cena, preden začnem","cta.b3":"En klic, ostalo naredim jaz","cta.b4":"Narejena, da ti pripelje stranke","cta.h2":"Naslednja je lahko tvoja.","cta.link":"Piši mi →","cta.hint":"klikni in mi pošlji mail →","cta.num":"04 · Tvoj projekt","cta.stack":"Oblikovanje · Izdelava · Objava",
-"about.intro":"Sem Matjaž. 20 let, iz Slovenije. Delam spletne strani in Shopify aplikacije.","ab.1":"Samouk, začel s spletnimi stranmi za lokalna podjetja","ab.2":"Zdaj delam Shopify aplikacije pri TastyDose","ab.3":"Študiram računalništvo v Ljubljani","ab.4":"Claude Code uporabljam vsak dan, zato sem hiter","ab.5":"Rad imam preproste stvari. Sovražim besedo povprečen",      "nav.home":"domov","nav.projects":"projekti","nav.experience":"izkušnje","nav.about":"o meni",
+"ab.1":"Samouk, začel s spletnimi stranmi za lokalna podjetja","ab.2":"Zdaj delam Shopify aplikacije pri TastyDose","ab.3":"Študiram računalništvo v Ljubljani","ab.4":"Claude Code uporabljam vsak dan, zato sem hiter","ab.5":"Rad imam preproste stvari. Sovražim besedo povprečen","about.intro":"Sem Matjaž Gazvoda. Trenutno delam kot razvijalec pri <a class=\"inl\" href=\"https://tastydose.com\" target=\"_blank\" rel=\"noopener\">Tasty Dose</a>. Naredil sem nekaj spletnih strani, vse življenje pa sem športnik. V prostem času berem in potujem.","about.p1":"Sem Matjaž Gazvoda, 20 let, iz Slovenije. Trenutno delam kot razvijalec pri <a class=\"inl\" href=\"https://tastydose.com\" target=\"_blank\" rel=\"noopener\">Tasty Dose</a>, kjer gradim Shopify aplikacije in interna orodja za znamko, ki hitro raste.","about.p2":"Pred tem sem delal spletne strani za lokalna podjetja in to še vedno počnem, ko pride dober projekt. Sem samouk in AI orodja uporabljam vsak dan. To je velik razlog, zakaj delam hitro.","about.p3":"Ampak koda ni vse. Vse življenje sem športnik in tja gre še vedno največ moje energije izven dela. V prostem času berem in potujem, kadar le lahko. Zadnja pot je bila San Francisco.",      "nav.home":"domov","nav.projects":"projekti","nav.experience":"izkušnje","nav.about":"o meni",
       "hero.tag":"Razvijalec programske opreme. Delam hitre, čiste spletne strani in Shopify aplikacije, večinoma z AI v procesu.",
       "links.email":"E-pošta",
       "projects.h1":"projekti","projects.lead":"Tri spletne strani, ki sem jih oblikoval in zgradil za prave stranke, od prvega klica do žive domene.",
@@ -59,9 +59,9 @@
       "ed2.when":"2021 – 2025","ed2.title":"Gimnazija Novo mesto","ed2.where":"Novo mesto",
       "h1.where":"AI pixel liki, ki delujejo kot skilli in MCP povezave",
       "about.h1":"o meni",
-      "about.p1":"Sem Matjaž, 20-letni samouk razvijalec iz Slovenije. Začel sem z izdelavo spletnih strani za lokalna podjetja, danes pa večino dni gradim Shopify aplikacije pri TastyDose.",
-      "about.p2":"Rad imam stvari preproste in hitre. Z AI orodji delam vsak dan, veliko berem, treniram in rad delam stvari malo drugače. Sovražim besedo povprečen.",
-      "about.p3":"Če potrebuješ spletno stran ali pomoč s Shopifyjem, mi piši.",
+      
+      
+      
       "f.based":"Živim v","f.based.v":"Ljubljana, Slovenija","f.study":"Študiram","f.study.v":"Računalništvo, UL FRI","f.work":"Delam pri","f.lang":"Jeziki","f.lang.v":"slovenščina, angleščina, nemščina","f.stack":"Stack","f.email":"E-pošta"
     }
   };
