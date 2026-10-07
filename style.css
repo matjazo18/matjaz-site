@@ -270,3 +270,15 @@ html.i18n-pending body{visibility:hidden}
 .shot a:hover .frame{box-shadow:0 14px 36px rgba(0,0,0,.16),0 40px 70px -20px rgba(0,0,0,.3)}
 :root[data-theme="dark"] .frame{box-shadow:0 10px 30px rgba(0,0,0,.5),0 30px 60px -20px rgba(0,0,0,.8)}
 :root[data-theme="dark"] .shot a:hover .frame{box-shadow:0 14px 36px rgba(0,0,0,.6),0 40px 70px -20px rgba(0,0,0,.9)}
+/* even bigger project images */
+@media(min-width:721px){
+  .project{grid-template-columns:1.6fr 1fr;gap:48px}
+  .project.flip{grid-template-columns:1fr 1.6fr}
+  .project{max-width:1160px}
+}
+:root{--max:1160px}
+/* experience logos */
+.timeline .row{display:flex;gap:16px;align-items:flex-start}
+.timeline .logo{width:44px;height:44px;border-radius:10px;flex:none;object-fit:cover;border:1px solid var(--line)}
+.timeline .logo.ph{background:none;border:0;visibility:hidden}
+@media(max-width:720px){.timeline .logo.ph{display:none}}
