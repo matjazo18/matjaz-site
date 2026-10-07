@@ -282,3 +282,48 @@ html.i18n-pending body{visibility:hidden}
 .timeline .logo{width:44px;height:44px;border-radius:10px;flex:none;object-fit:cover;border:1px solid var(--line)}
 .timeline .logo.ph{background:none;border:0;visibility:hidden}
 @media(max-width:720px){.timeline .logo.ph{display:none}}
+/* ---- mobile polish ---- */
+@media(max-width:720px){
+  body{font-size:16px;line-height:1.55}
+  nav .wrap{padding:12px 20px 8px;row-gap:4px}
+  nav .brand{font-size:20px}
+  nav ul{gap:16px}
+  nav ul a{font-size:16px}
+  .tools button{height:30px;min-width:30px;font-size:13px;padding:0 8px}
+  .tools button svg{width:14px;height:14px}
+  /* home */
+  .lens-text{font-size:clamp(60px,18vw,110px)}
+  .home-bar{padding:0 0 16px}
+  .home-bar .wrap{gap:8px}
+  .home-bar .links{gap:12px}
+  .home-bar .links a{font-size:14px}
+  .home-name{font-size:13px;color:var(--muted);max-width:300px;line-height:1.4}
+  /* pages */
+  h1{font-size:36px;margin-bottom:8px}
+  .lead{font-size:15px;margin-bottom:28px}
+  .project{padding:24px 0;gap:16px}
+  .project h2{font-size:24px;margin:6px 0 8px}
+  .project p{font-size:15px}
+  .project .num{font-size:13px}
+  .project .stack{font-size:13px;margin-top:10px}
+  .project .visit{margin-top:14px}
+  .frame .bar,.placeholder .bar{height:24px}
+  .frame .bar i,.placeholder .bar i{width:7px;height:7px}
+  .frame .bar span,.placeholder .bar span{font-size:11px}
+  .ph-url{font-size:24px}
+  .sell-list li{font-size:15px}
+  /* experience */
+  .timeline li{padding:16px 0;gap:2px}
+  .timeline .when{font-size:13px}
+  .timeline h3{font-size:16px}
+  .timeline .where,.timeline p{font-size:14px}
+  .timeline p{margin-top:4px}
+  .timeline .row{gap:12px}
+  .timeline .logo{width:36px;height:36px;border-radius:8px}
+  h2.section{margin:32px 0 4px;font-size:14px}
+  /* about */
+  .about-text{margin-bottom:32px}
+  .about-text p{font-size:16px;line-height:1.6;margin-bottom:14px}
+  .about-page .links{gap:14px}
+  footer{padding:24px 0;font-size:12px}
+}
