@@ -77,6 +77,7 @@
   function applyTheme(t){
     theme=t; set('theme',t);
     if(t==='dark')root.setAttribute('data-theme','dark');else root.removeAttribute('data-theme');
+    var tc=document.querySelector('meta[name=theme-color]');if(!tc){tc=document.createElement('meta');tc.name='theme-color';document.head.appendChild(tc);}tc.content=t==='dark'?'#0b0b0b':'#ffffff';
   }
   applyTheme(theme);
   if(lang!=='en')root.classList.add('i18n-pending');

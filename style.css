@@ -330,3 +330,17 @@ html.i18n-pending body{visibility:hidden}
 @media(max-width:720px){
   nav .wrap{padding:calc(16px + env(safe-area-inset-top)) 20px 12px;row-gap:12px}
 }
+/* overscroll shows theme color, bounce allowed, nothing to scroll */
+html{background:var(--bg);transition:background .25s}
+body.home{overflow:visible;height:auto;min-height:100dvh}
+body.home .hero{flex:1;min-height:0}
+@supports(height:100dvh){body.home{height:100dvh;overflow:visible}}
+/* mobile nav v3 */
+@media(max-width:720px){
+  nav .wrap{display:grid;grid-template-columns:1fr auto;align-items:center;padding:calc(18px + env(safe-area-inset-top)) 20px 0;row-gap:0}
+  nav .brand{font-size:22px}
+  .tools{gap:6px}
+  nav ul{grid-column:1/-1;display:flex;justify-content:space-between;gap:0;margin-top:14px;padding:12px 2px 10px;border-top:1px solid var(--line)}
+  nav ul a{font-size:17px}
+  nav ul a.active::after{bottom:-3px}
+}
