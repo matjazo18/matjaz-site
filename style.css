@@ -344,3 +344,6 @@ body.home .hero{flex:1;min-height:0}
   nav ul a{font-size:17px}
   nav ul a.active::after{bottom:-3px}
 }
+/* text selection: same green as the lens */
+::selection{background:#3f9a66;color:#0d0d0d}
+:root[data-theme="dark"] ::selection{background:#1f5c3f;color:#f3efe6}
