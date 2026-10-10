@@ -347,3 +347,9 @@ body.home .hero{flex:1;min-height:0}
 /* text selection: same green as the lens */
 ::selection{background:#3f9a66;color:#0d0d0d}
 :root[data-theme="dark"] ::selection{background:#1f5c3f;color:#f3efe6}
+/* a little green: logo dot, active nav line, link hovers */
+:root{--green:#3f9a66}
+:root[data-theme="dark"]{--green:#2f7d52}
+.brand .dot{color:var(--green)}
+nav ul a.active::after{background:var(--green)}
+.links a:hover,.timeline p a:hover,a.inl:hover,.project .visit:hover{border-color:var(--green)}
